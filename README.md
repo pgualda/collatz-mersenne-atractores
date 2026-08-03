@@ -5,7 +5,7 @@ Se observo tambien union en las trayectorias de las siguientes formas:
 Canal (Δm)	Paso de Unión	Período Modular (Δk)	Escala Binaria (2^B)	Familia Semilla Modelo (k_n)	ejemplos
 Δm = 2	k + 2	64	2^6	30 + 64n	M30-M31=>paso impar 32 , M94-M95=> paso impar 96, M9950-M9951=>paso impar9952, M2976222-M2976223=> 2976224
 Δm = 3	k + 3	256	2^8	198 + 256n	M198-M200
-Δm = 4	k + 4	512	2^9	110 + 512n	M110-M113
+Δm = 4	k + 4	512	2^9	110 + 512n	M110-M113 
 Δm = 5	k + 5	512	2^9 / 2^10	302 + 512n M302-M306	
 Δm = 6	k + 6	1.024	2^10	258 + 1024n	
 Es posible que pueda expresarse en una forma general.
