@@ -41,6 +41,9 @@ El repositorio incluye una herramienta en C con **GNU GMP** para validar la coli
 gcc -O3 -march=native -static mctest2-30-64n.c -o mctest2-30-64n.exe -lgmp
 ```
 Se agrega para verificacion computacional de casos no demostrados:
+
 mctest3-198-256n.c
+
 mctest4-1445-256n.c
+
 instrucciones de compilacion en el codigo.
