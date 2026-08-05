@@ -1,4 +1,3 @@
-https://doi.org/10.5281/zenodo.21780683
 # Deterministic Collatz Confluence for Mersenne Numbers ($k \equiv 30 \pmod{64}$)
 
 Este repositorio contiene la demostración formal y el script de verificación computacional para la colisión determinista en trayectorias de Collatz entre números de Mersenne adyacentes $M_k = 2^k - 1$ y $M_{k+1} = 2^{k+1} - 1$ para $k \equiv 30 \pmod{64}$.
@@ -47,3 +46,7 @@ mctest3-198-256n.c
 mctest4-1445-256n.c
 
 instrucciones de compilacion en el codigo.
+---
+### Citation / DOI
+To cite this repository or the underlying mathematical proof:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21780683.svg)](https://doi.org/10.5281/zenodo.21780683)
