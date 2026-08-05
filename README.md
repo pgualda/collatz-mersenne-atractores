@@ -46,7 +46,8 @@ mctest3-198-256n.c
 mctest4-1445-256n.c
 
 instrucciones de compilacion en el codigo.
+
 ---
 ### Citation / DOI
 To cite this repository or the underlying mathematical proof:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21780683.svg)](https://doi.org/10.5281/zenodo.21780683)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21798733.svg)](https://doi.org/10.5281/zenodo.21798733)
