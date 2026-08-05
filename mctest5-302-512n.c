@@ -4,11 +4,11 @@
 
 /*
  * Compilación:
- * gcc -O3 -march=native -static mctest4-110-512n.c -o mctest4-110-512n.exe -lgmp
+ * gcc -O3 -march=native -static mctest5-302-512n.c -o mctest5-302-512n.exe -lgmp
  * Uso:
- * ./mctest3-110-512n <n>
- * Ejemplo para n=0 (k=110):  ./mctest3-110-512n 0
- * Ejemplo para n=1 (k=622):  ./mctest3-110-512n 1
+ * ./mctest5-302-512n <n>
+ * Ejemplo para n=0 (k=302):  ./mctest5-302-512n 0
+ * Ejemplo para n=1 (k=812):  ./mctest5-302-512n 1
  */
 
 // Paso estándar de Collatz: si es par x/2, si es impar 3x+1
@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     }
 
     long n_input = atol(argv[1]);
-    unsigned long k = 110 + 512 * n_input;
+    unsigned long k = 302 + 512 * n_input;
 
     printf("=== Verificación para n = %ld (k = %lu) ===\n", n_input, k);
 
@@ -47,26 +47,26 @@ int main(int argc, char *argv[]) {
     mpz_set(estado_k1, Mk1);
 
     // Pasos teóricos en el operador estándar
-    unsigned long pasos_k = 2 * k + 14;
-    unsigned long pasos_k1 = 2 * k + 15;
+    unsigned long pasos_k = 2 * k + 16;
+    unsigned long pasos_k1 = 2 * k + 17;
 
-    // Iterar Mk por (2k + 13) pasos
+    // Iterar Mk por (2k + 16) pasos
     for (unsigned long i = 0; i < pasos_k; i++) {
         paso_collatz_estandar(estado_k);
     }
 
-    // Iterar Mk+1 por (2k + 14) pasos
+    // Iterar Mk+1 por (2k + 17) pasos
     for (unsigned long i = 0; i < pasos_k1; i++) {
         paso_collatz_estandar(estado_k1);
     }
 
-    // Calcular el valor teórico mediante la fórmula cerrada: N(k) = (3^(k+4) + 599) / 512
+    // Calcular el valor teórico mediante la fórmula cerrada: N(k) = (3^(k+6) + 4591) / 512
     mpz_t N_teorico, num, denom;
     mpz_inits(N_teorico, num, denom, NULL);
 
-    mpz_ui_pow_ui(num, 3, k + 5);
-    mpz_add_ui(num, num, 1445);
-    mpz_set_ui(denom, 512);
+    mpz_ui_pow_ui(num, 3, k + 6);
+    mpz_add_ui(num, num, 4591);
+    mpz_set_ui(denom, 1024);
 
     // Verificación de divisibilidad exactitud
     if (!mpz_divisible_p(num, denom)) {
