@@ -47,7 +47,7 @@ mctest4-110-256n.c
 
 mctest5-302-512n.c
 
-mctest6-258-10242n.c
+mctest6-258-1024n.c
 
 instrucciones de compilacion en el codigo.
 
