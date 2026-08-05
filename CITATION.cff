@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software or mathematical findings, please cite it as below."
+authors:
+- family-names: "Gualda"
+  given-names: "Norberto Daniel"
+title: "Collatz-Mersenne-Atractores: Deterministic Collatz trajectory collisions on Mersenne residue classes"
+date-released: 2026-08-04
+url: "https://github.com/pgualda/collatz-mersenne-atractores"
