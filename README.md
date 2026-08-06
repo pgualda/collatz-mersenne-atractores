@@ -23,7 +23,8 @@ Análisis computacional de otros puntos de confluencia y sus familias asociadas 
 | Paso de Unión Acelerado | Familia Semilla Modelo ($k_n$) | Exp | n=0 |
 | :---: | :---: | :---: | :---: |
 | $k + 2$ | $30 + 64n$ | $\frac{3^{k+3}+125}{128}$|$43430160676216$|
-| $k + 3$ | $198 + 256n$ |$\frac{3^{k+4}+599}{512}$|$466899\dots7884$|
+| $k + 3$ (1)| $78 + 256n$ |$\frac{3^{k+4}+439}{256}$|$519640\dots2808$|
+| $k + 3$ (2)| $198 + 256n$ |$\frac{3^{k+4}+599}{512}$|$466899\dots7884$|
 | $k + 4$ | $110 + 512n$ |$\frac{3^{k+5}+1445}{512}$|$144435\dots9696$|
 | $k + 5$ | $302 + 512n$ |$\frac{3^{k+6}+4591}{1024}$|$877094\dots3298$|
 | $k + 6$ | $...$ |$...$|$...$|
