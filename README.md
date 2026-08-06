@@ -29,6 +29,7 @@ Análisis computacional de otros puntos de confluencia y sus familias asociadas 
 | $k + 5$ | $302 + 512n$ |$\frac{3^{k+6}+4591}{1024}$|$877094\dots3298$|
 | $k + 6$ | $...$ |$...$|$...$|
 
+La unión en 3 o más pasos acelerados se cristaliza en una superposición de distintas familias congruenciales, donde el módulo base de compresión se desglosa en períodos de diferente densidad ($256, 512, 4096\dots$).
 ---
 
 ## 🛠️ Verificación Computacional (`mctest2-30-64n.c`)
