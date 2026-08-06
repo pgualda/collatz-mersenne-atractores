@@ -26,7 +26,7 @@ Análisis computacional de otros puntos de confluencia y sus familias asociadas 
 | $k + 3$ | $198 + 256n$ |$\frac{3^{k+4}+599}{512}$|$466899\dots7884$|
 | $k + 4$ | $110 + 512n$ |$\frac{3^{k+5}+1445}{512}$|$144435\dots9696$|
 | $k + 5$ | $302 + 512n$ |$\frac{3^{k+6}+4591}{1024}$|$877094\dots3298$|
-| $k + 6$ | $258 + 1024n$ |$\frac{3^{k+7}+55069}{16384}$|$166998\dots2518$|
+| $k + 6$ | $...$ |$...$|$...$|
 
 ---
 
@@ -46,8 +46,6 @@ mctest3-198-256n.c
 mctest4-110-256n.c
 
 mctest5-302-512n.c
-
-mctest6-258-1024n.c
 
 instrucciones de compilacion en el codigo.
 
