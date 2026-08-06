@@ -44,6 +44,8 @@ gcc -O3 -march=native -static mctest2-30-64n.c -o mctest2-30-64n.exe -lgmp
 ```
 Se agrega para verificacion computacional de casos no demostrados:
 
+mctest3-78-256n.c
+
 mctest3-198-256n.c
 
 mctest4-110-256n.c
