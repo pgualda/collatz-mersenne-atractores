@@ -49,6 +49,8 @@ mctest3-78-256n.c
 
 mctest3-198-256n.c
 
+mctest3-206-256n.c
+
 mctest4-110-256n.c
 
 mctest5-302-512n.c
