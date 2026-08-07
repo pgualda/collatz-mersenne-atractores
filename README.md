@@ -34,7 +34,7 @@ Análisis computacional de otros puntos de confluencia y sus familias asociadas 
 
 La unión en 3 o más pasos acelerados no es unica.
 
----
+Nota: para hacer mas limpia la demostracion puede partirse directamente desde los repitunos ternarios adyacentes. En esa direccion se encamina nuestro proximo trabajo.
 
 ---
 
