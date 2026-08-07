@@ -35,9 +35,11 @@ Análisis computacional de otros puntos de confluencia y sus familias asociadas 
 La unión en 3 o más pasos acelerados no es unica.
 
 ---
+
 Se observo que asi como cualquier Mk (o directamente desde el R3 3^K-1) 30+64n coalesce en 10 pasos desde el R3, 34+64n coalesce en 234 pasos absolutos, verificado para R3-34 / R3-35 y R3-98 y R3-99, grandes grupos de R3 cercanos tienen cantidades de pasos similares, sin embargo el punto de coalescencia -si bien regular para los Mk/R3 de la misma forma- ocurre en una cantidad de pasos distinta.
 En la forma de un R3 k (30+64n, 34+64n, 78+256n etc) esta predeterminada la cantidad de pasos de colision con el R3 k+1. 
 Existe una forma 3^(k+pasos)+C/2^n para esos numeros.
+
 ---
 
 ## 🛠️ Verificación Computacional (`mctest2-30-64n.c`)
